@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DjQRP3CHrQPUVp5d9m+lZHIFtzYMgjoVQexhszefAiqLrpiJbYDe/w7Xm+rQXHdr6UhBU39EWktMkFSsJ11RFA==",
+  "dgSpecHash": "PKukuJ47U3AaaLuoFS7dHuVT581QsEoIOY9nk8uGq7RTjAbTpBqpKIElrW5ubXqwdQmg/9gAWX97Fnk5QR3FNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shweta.dattukumar\\source\\repos\\example-config-editor\\ConfigEditor\\ConfigEditor\\ConfigEditor.csproj",
+  "projectFilePath": "C:\\Users\\shweta.dattukumar\\source\\repos\\config-editor-example\\example-config-editor\\ConfigEditor\\ConfigEditor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shweta.dattukumar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\shweta.dattukumar\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

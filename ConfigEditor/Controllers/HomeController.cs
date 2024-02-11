@@ -33,13 +33,20 @@ namespace ConfigEditor.Controllers
             return View(serveConfigViewModel);
         }
 
-        public async Task<IActionResult> SaveConfig(ServerConfigViewModel serverConfigViewModel)
+        public async Task SaveConfigx(ServerConfigViewModel serverConfigViewModel)
         {
             // map view to model 
             var serverConfig = MapServerConfigViewModel(serverConfigViewModel);
 
             await _serverConfigWriter.WriteConfig(serverConfig);
 
+            //return View();
+        }
+
+        public async Task<IActionResult> SaveConfig()
+        {
+            // map view to model 
+            
             return View();
         }
 

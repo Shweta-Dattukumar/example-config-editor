@@ -9684,11 +9684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shweta.dattukumar\\source\\repos\\example-config-editor\\ConfigEditor\\ConfigEditor\\ConfigEditor.csproj",
+      "projectUniqueName": "C:\\Users\\shweta.dattukumar\\source\\repos\\config-editor-example\\example-config-editor\\ConfigEditor\\ConfigEditor.csproj",
       "projectName": "ConfigEditor",
-      "projectPath": "C:\\Users\\shweta.dattukumar\\source\\repos\\example-config-editor\\ConfigEditor\\ConfigEditor\\ConfigEditor.csproj",
+      "projectPath": "C:\\Users\\shweta.dattukumar\\source\\repos\\config-editor-example\\example-config-editor\\ConfigEditor\\ConfigEditor.csproj",
       "packagesPath": "C:\\Users\\shweta.dattukumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shweta.dattukumar\\source\\repos\\example-config-editor\\ConfigEditor\\ConfigEditor\\obj\\",
+      "outputPath": "C:\\Users\\shweta.dattukumar\\source\\repos\\config-editor-example\\example-config-editor\\ConfigEditor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shweta.dattukumar\\AppData\\Roaming\\NuGet\\NuGet.Config",

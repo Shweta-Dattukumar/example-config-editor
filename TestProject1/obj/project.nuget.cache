@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bQya3MSSRn3ykT15uhKDJg3QABMxCYKEtY37NGQrBrUAuv3jdLUt7G1tCNFHK1BOWsJZmppMXq6sLOhzgEcrJA==",
+  "dgSpecHash": "WYKzsSz7jeeU+2+0KpjLWkyBzZzyYHQpCywR7KcYszyHY0wiba4UZdPscmHmQlkPYJyONx23/pGFM8XqfTXR6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shweta.dattukumar\\source\\repos\\example-config-editor\\ConfigEditor\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\shweta.dattukumar\\source\\repos\\config-editor-example\\example-config-editor\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shweta.dattukumar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\shweta.dattukumar\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
