@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>Contents of the config files are listed below.</h2>
+    
+    <div class="container-fluid">
+        <div class="row col-lg-12 col-sm-12 col-md-6">
+            <div class="card" style="width: 40rem; margin-bottom=20%;">
+                <div class="card-body">
+                    <div class="card-title"><h4>Default config.</h4></div>
+                    @foreach (KeyValuePair<string, string>
+                        dictVal in Model.Defaults)
+                    {
+                        <div class="text-center">@dictVal.Key = @dictVal.Value</div>
+                    }
+                    <a asp-area="" asp-controller="Home" asp-action="SaveConfig" class="card-link">Add</a>
+                    <a asp-area="" asp-controller="Home" asp-action="SaveConfig" class="card-link">Edit</a>
+                </div>
+            </div>
+            <br/>
+
+            @foreach (var server in Model.Servers)
+            {
+                <div class="card" style="width: 40rem; margin-bottom=20%;">
+                    <div class="card-body">
+                        <div class="card-title"><h5 class="text-left">@server.Name</h5></div>
+                        @foreach (KeyValuePair<string, string>
+                            dictValue in server.Overrides)
+                        {
+                            <div>@dictValue.Key = @dictValue.Value</div>
+                        }
+                        <a href="#" class="card-link">Add</a>
+                        <a href="#" class="card-link">Edit</a>
+                    </div>
+                </div>
+                <br/>
+            }
+        </div>
+    </div>
+</div>
